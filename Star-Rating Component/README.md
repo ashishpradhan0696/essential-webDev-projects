@@ -2,6 +2,7 @@
 # Star-Rating Component
 
 A star rating component is a common way to indicate user votes or reviews.
+![image](https://user-images.githubusercontent.com/105099493/179777125-70cd93d2-e121-4819-bbc7-ddfc52370848.png)
 
 
 
@@ -31,7 +32,8 @@ A star rating component is a common way to indicate user votes or reviews.
 2. Increase/decrease the rating. 
 3. Click on "Save" button to save the rating.
 
-The star rating changes as you increase/decrease the rating value through the input field.\
+> The star rating changes as you increase/decrease the rating value through the input field. \
+> Even if you reload the page, the ratings will still persist based on your last saved data. 
  ```bash
   NOTE : After manipulating the rating, you must click on "Save" button to save/update the rating in "local Storage" for the product that you've selected at that instance.
 
