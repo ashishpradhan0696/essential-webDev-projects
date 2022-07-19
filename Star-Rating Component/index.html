@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating Component</title>
+    <script src="https://kit.fontawesome.com/aa91e28d0f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="starComponent">
+        <div class="product">
+            <select name="product" id="phone">
+                <option value="">Product</option>
+                <option value="iPhoneXR">iPhone XR</option>
+                <option value="iPhone12">iPhone 12</option>
+                <option value="iPhone13">iPhone 13</option>
+            </select>
+            <input type="number" placeholder="Rating" size="8" min="0" max="5" id="rating">
+            <button class="btn btn-dark" type="submit" onclick="save()">Save</button>
+        </div>
+        <div class="stars1">iphone XR
+            <i class="fa-regular fa-star xr_star"></i>
+            <i class="fa-regular fa-star xr_star"></i>
+            <i class="fa-regular fa-star xr_star"></i>
+            <i class="fa-regular fa-star xr_star"></i>
+            <i class="fa-regular fa-star xr_star"></i>
+        </div>
+        <div class="stars2">iphone 12
+            <i class="fa-regular fa-star 12_star"></i>
+            <i class="fa-regular fa-star 12_star"></i>
+            <i class="fa-regular fa-star 12_star"></i>
+            <i class="fa-regular fa-star 12_star"></i>
+            <i class="fa-regular fa-star 12_star"></i>
+        </div>
+        <div class="stars3">iphone 13
+            <i class="fa-regular fa-star 13_star"></i>
+            <i class="fa-regular fa-star 13_star"></i>
+            <i class="fa-regular fa-star 13_star"></i>
+            <i class="fa-regular fa-star 13_star"></i>
+            <i class="fa-regular fa-star 13_star"></i>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

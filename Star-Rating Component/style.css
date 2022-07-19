@@ -1,0 +1,44 @@
+
+.starComponent{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 5px 5px rgb(220, 213, 213);
+    background-color: beige;
+    width: 40%;
+    height: 50%;
+    margin-top: 12%;
+    margin-left: 30%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    width: 75px;
+}
+
+.fa-star{
+    color: gold;
+}
+
+#phone{
+    border: none;
+    background-color: rgb(220, 213, 213);
+    cursor: pointer;
+}
+
+button.btn:hover{
+   background-color:rgb(199, 197, 197);
+   color: black;
+}
+
+    option:hover{
+        background-color: rgb(152, 173, 173);
+        color: rgb(189, 85, 85);
+    }
+
+select:focus>option:checked {
+    background: rgb(164, 162, 162);
+}
+
