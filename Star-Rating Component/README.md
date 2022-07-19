@@ -1,7 +1,7 @@
 
 # Star-Rating Component
 
-A star rating component is a common way to indicate user votes or reviews.
+A star rating component is a common way to indicate user votes or reviews. This project component can be implemented in any website that relies on gathering user reviews or feedbacks.
 ![image](https://user-images.githubusercontent.com/105099493/179777125-70cd93d2-e121-4819-bbc7-ddfc52370848.png)
 
 
