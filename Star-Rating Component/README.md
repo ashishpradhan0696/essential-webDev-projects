@@ -1,5 +1,5 @@
 
-# Postman Clone
+# Star-Rating Component
 
 A star rating component is a common way to indicate user votes or reviews.
 
@@ -33,7 +33,7 @@ A star rating component is a common way to indicate user votes or reviews.
 
 The star rating changes as you increase/decrease the rating value through the input field.\
  ```bash
-  NOTE : After manipulating the rating, you must click on "Save" button to save/update the rating in local Storage for the product that you've selected at that instance.
+  NOTE : After manipulating the rating, you must click on "Save" button to save/update the rating in "local Storage" for the product that you've selected at that instance.
 
 ```
 
@@ -48,10 +48,15 @@ The star rating changes as you increase/decrease the rating value through the in
 
 ## Demo
 
-Insert gif or link to demo
+
+https://user-images.githubusercontent.com/105099493/179776418-3703b6f9-0fad-4e2c-8aa3-e09b8ac9cc30.mp4
+
+
+
 
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) \
+View LICENSE.md for more information.
 
