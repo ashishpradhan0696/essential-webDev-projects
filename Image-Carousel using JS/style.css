@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(196, 203, 200);
+}
+
+img{
+    display: none;
+    height: 90%;
+    border-radius: 19px;
+}
+
+.container{
+    width: 85%;
+    height: 90vh;
+    margin: auto;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+
+#prev{
+    position: absolute;
+    color: white;
+    background-color: rgb(55, 54, 54);
+    left: 0;
+    cursor: pointer;
+    padding: 16px;
+    transition: 0.6s ease;
+}
+
+#next {
+    position: absolute;
+    color: white;
+    background-color: rgb(55, 54, 54);
+    right: 0;
+    cursor: pointer;
+    padding: 16px;
+}
+
+#prev:hover ,#next:hover{
+    background-color:beige;
+    color: black;
+}
+
+.dot{
+    height: 15px;
+    width:15px;
+    background-color: grey;
+    display: inline-block;
+    border-radius: 100px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.dots{
+    text-align: center;
+}
+
+.active{
+    background-color:rgb(46, 46, 46) ;
+}
+
+
+#fade{
+    animation: fade 1.5s;
+}
+
+@keyframes fade{
+    from {opacity: 0.4}
+    to {opacity: 1}
+}
+
