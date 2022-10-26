@@ -1,0 +1,7 @@
+#chart {
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-image: conic-gradient(green var(--percentage), lightgreen 0);
+}
