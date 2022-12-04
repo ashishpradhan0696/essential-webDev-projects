@@ -1,0 +1,60 @@
+.container{
+    width: 50vw;
+    background-color:rgb(237, 237, 233);
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 5px;
+   padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.container h2{
+    text-align: center;
+}
+
+.accordion{
+    padding: 10px 0 10px 0;
+    border-radius: 5px;
+
+}
+
+.accordion-header{
+    padding: 10px;
+    
+   
+}
+.accordion-header:hover{
+    cursor: pointer;
+    background-color: rgb(219, 219, 199);
+}
+
+.accordion-summary{
+    display: none;
+    background-color: white;
+    padding: 10px; 
+    
+}
+.accordion-header span {
+    float: right;
+}
+
+/* animations */
+
+.accordion-summary.open{
+    display: block;
+    animation: sweep .5s ease;
+}
+
+@keyframes sweep {
+    0% {
+        opacity: 0;
+        transform: translateY(5px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
