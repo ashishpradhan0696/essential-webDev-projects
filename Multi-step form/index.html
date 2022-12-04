@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/font-awesome.css"
+        integrity="sha512-72McA95q/YhjwmWFMGe8RI3aZIMCTJWPBbV8iQY3jy1z9+bi6+jHnERuNrDPo/WGYEzzNs4WdHNyyEr/yXJ9pA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Multi-step form</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <h2>Sign Up form</h2>
+        <div class="progress-bar">
+            <div class="steps">
+                <p>Name</p>
+                <p class="bullet">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p>
+                <!-- <i class="fa fa-times" aria-hidden="true"></i> -->
+            </div>
+            <div class="steps">
+                <p>Contact</p>
+                <p class="bullet">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p>
+
+            </div>
+            <div class="steps">
+                <p>Birth</p>
+                <p class="bullet">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p>
+            </div>
+            <div class="steps">
+                <p>Declaration</p>
+                <p class="bullet">
+                    <i class="fa fa-times" aria-hidden="true"></i>
+                </p>
+            </div>
+        </div>
+        <form action="#" id="myForm">
+            <div class="pages">
+                <div class="page">
+                    <div class="title">Name</div>
+                    <div class="fields">
+                        <div class="field">
+                            <label for="firstName">First Name</label>
+                            <input type="text" name="fname" />
+                        </div>
+                        <div class="field">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" name="lname" />
+                        </div>
+                    </div>
+                    <button type="submit" class="nextBtn-1">Next</button>
+                </div>
+
+                <div class="page">
+                    <div class="title">Contact</div>
+                    <div class="fields">
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input type="text" name="userEmail" />
+                        </div>
+                        <div class="field">
+                            <label for="phoneNumber">Number</label>
+                            <input type="text" name="phoneNumber" />
+                        </div>
+                    </div>
+                    <button type="submit" class="prevBtn-2">Previous</button>
+                    <button type="submit" class="nextBtn-2">Next</button>
+                </div>
+
+                <div class="page">
+                    <div class="title">Birth</div>
+                    <div class="fields">
+                        <div class="field">
+                            <label for="dob">Date of birth</label>
+                            <input type="date" name="dob" />
+                        </div>
+                        <div class="field">
+                            <label for="pob">Place of birth</label>
+                            <input type="text" name="pob" />
+                        </div>
+                    </div>
+                    <button type="submit" class="prevBtn-3">Previous</button>
+                    <button type="submit" class="nextBtn-3">Next</button>
+                </div>
+
+                <div class="page">
+                    <div class="title">Declaration</div>
+                    <div class="fields">
+                        <input type="checkbox" class="confirm" required />
+                        I agree that all the details are true to my knowledge and belief.
+                    </div>
+                    <button type="submit" class="prevBtn-4">Previous</button>
+                    <button type="submit" class="submitBtn">Submit</button>
+                </div>
+            </div>
+
+
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

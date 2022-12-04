@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.form-container{
+    border: 1px solid beige;
+    padding: 10px;
+    background-color: beige;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+.pages{
+    display: flex;
+    width: 300px;
+    overflow-x: hidden;
+    margin-top: 40px;
+}
+
+.page{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: margin 0.3s ease-in-out;
+    
+}
+
+.title{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    padding: 5px;
+}
+
+button{
+    margin-top: auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.progress-bar{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.steps{
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.bullet{
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .bullet:before,
+.bullet:after {
+    position: absolute;
+    content: '';
+    left: -50px;
+    height: 3px;
+    width: 44px;
+
+    background: #000;
+} */
+
+/* .bullet:after {
+    position: absolute;
+    content: 'ssasasasasas';
+   
+    height: 3px;
+    width: 44px;
+    line-height: 25px;
+    background: #000;
+} */
+
+.active .bullet{
+    background-color: rgb(7, 164, 164);
+}
