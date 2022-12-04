@@ -1,0 +1,36 @@
+
+.container{
+    margin: auto;
+    width:70%
+}
+
+.comment__container{
+    border-radius: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    padding: 10px;
+    margin-top: 10px;
+    background-color: beige;
+}
+
+.comment__card-footer{
+   display: flex;
+   justify-content: flex-end;
+   cursor: pointer;
+   padding: 10px;
+}
+
+.comment__container{
+    display: none;
+}
+
+.comment__container.opened{
+    display: block;
+}
+
+#reply{
+    font-weight: bolder;
+}
+
+#reply:hover {
+    color: rgb(93, 92, 91);
+}

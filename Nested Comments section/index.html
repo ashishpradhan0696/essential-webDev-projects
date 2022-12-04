@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested comments</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="comment__container opened" id="first-comment">
+            <div class="comment__card">
+                <h3>1st comment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione ad ut sunt facere quas adipisci
+                    accusantium, neque dolor? Tempora?</p>
+                <div class="comment__card-footer">
+                    <span id="reply">Reply(3)</span>
+                </div>
+            </div>
+            <div class="comment__container" dataset="first-comment" id="first-reply">
+                <div class="comment__card">
+                    <h3>1st reply</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione ad ut sunt facere quas
+                        adipisci
+                        accusantium, neque dolor? Tempora?</p>
+                    <div class="comment__card-footer">
+                        <span id="reply">Reply(2)</span>
+                    </div>
+                </div>
+                <div class="comment__container" dataset="first-reply" id="first-first-reply">
+                    <div class="comment__card">
+                        <h3>Reply to 1st reply</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione ad ut sunt facere quas
+                            adipisci
+                            accusantium, neque dolor? Tempora?</p>
+                        <div class="comment__card-footer">
+                            <span id="reply">Reply(1)</span>
+                        </div>
+                    </div>
+                    <div class="comment__container" dataset="first-first-reply">
+                        <div class="comment__card">
+                            <h3>Reply to 1st reply to 1st reply</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione ad ut sunt facere
+                                quas
+                                adipisci
+                                accusantium, neque dolor? Tempora?</p>
+                            <div class="comment__card-footer">
+                                <span id="reply">Reply(0)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="comment__container opened" id="first-comment">
+            <div class="comment__card">
+                <h3>2nd comment</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione ad ut sunt facere quas adipisci
+                    accusantium, neque dolor? Tempora?</p>
+                <div class="comment__card-footer">
+                    <span id="reply">Reply</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
